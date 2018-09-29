@@ -168,7 +168,7 @@ Description: Extra color variants of Adapta Gtk+ theme" >pkg/DEBIAN/control
 
   echo "Built: build/$debfile"
 
-  tarfile="adapta-gtk-theme-colorpack_$DEBVERSION.tar"
+  tarfile="adapta-gtk-theme-colorpack_$DEBVERSION.tar.xz"
   (cd pkg/usr/share/themes; tar -Jcf ../../../../$tarfile Adapta*)
 
   echo "Built: build/$tarfile"
